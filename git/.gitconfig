@@ -1,0 +1,17 @@
+[user]
+	name = Daniel Karlsson
+	email = daniel@kardans.com
+[core]
+	editor = emacs
+[alias]
+	s = status -s
+	cl = clone
+	ci = commit
+	co = checkout	
+	b = branch
+	r = reset
+	rh = reset --hard
+	ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate
+	ll = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --numstat
+	lg = log --graph --oneline --decorate --all
+	caa = commit -a --amend -C HEAD
