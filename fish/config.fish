@@ -76,5 +76,8 @@ set -x GOPATH /Users/daniel/Workspace/go
 # Google SDK
 set PATH $PATH /Users/daniel/Applications/google-cloud-sdk/bin
 
+#MacDown
+set PATH $PATH /Applications/MacDown.app/Contents/SharedSupport/bin
+
 # Alias
 alias la="ls -la"
